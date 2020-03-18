@@ -1,0 +1,25 @@
+{
+  "name": "animepi",
+  "version": "1.0.0",
+  "description": "A Node.js helper library for AnimePI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliraybon/animepi-node.git"
+  },
+  "keywords": [
+    "anime"
+  ],
+  "author": "Eli Raybon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eliraybon/animepi-node/issues"
+  },
+  "homepage": "https://github.com/eliraybon/animepi-node#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
