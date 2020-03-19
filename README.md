@@ -34,7 +34,7 @@ Say we wanted to find all anime by the animation studio Madhouse. We could searc
 Anime.find({ studio: 'madhouse' })
 ```
 
-Note: String params aren't case sensitive and can be matched even if the entire string isn't provided. 
+Note: String params aren't case sensitive and can be matched even if the entire string isn't provided. ```Madhouse``` or ```mad``` would have also worked. 
 
 If we wanted to narrow our search to anime by Madhouse from the year 2011, we could add another search param:
 
@@ -48,7 +48,7 @@ If we wanted to sort the data by title in descending order, we could add the ```
 Anime.find({ studio: 'madhouse', year: 2011, order: 'title', desc: true })
 ```
 
-The find method returns to us a JavaScript object with several values, including the number of results, the previous and next page, and the actual results of the search. If you wanted to get straight to the results and print them to the console, you could do something like this: 
+The find method returns a JavaScript object with several values, including the number of results, the previous and next page, and the actual results of the search. If you wanted to get straight to the results and print them to the console, you could do something like this: 
 
 ```js
 Anime.find({ studio: 'madhouse' })
